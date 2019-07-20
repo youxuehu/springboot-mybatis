@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: springboot-mybatis
+  datasource:
+    url: jdbc:mysql://172.17.0.2:3306/spring_mybatis
+    username: root
+    password: zhf123..
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis.config.xml
+logging:
+  level:
+    com.gq: debug
+management:
+  endpoint:
+    health:
+      show-details: always
